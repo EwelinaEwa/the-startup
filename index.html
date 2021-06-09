@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="Ewelina, Claude, Dennis">
+    <meta name="description" content="We are a review Netflix movie generator based on mood.">
+    <meta name="keywords" content="Movies, Movie Generator, Netflix, Moods, Moodflix, Sad, Happy">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Moodfix</title>
+  </head>
+  <body>
+
+
+  <!-- Nav Section -->
+  <div clas="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="logo.png" alt="MoodFix" width="150px" height="30px"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="review.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="benefits.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="generator.html">Watch now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="loginform.html">Log in</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+
+
+
+
+<!-- Carousel & Generator-->
+
+<header>
+  <div class="container">
+    <div class="container py-4 h-100">
+      <div class="row h-100 justify-content-center align-items-center text-muted py-4">
+        <div class="log-in">
+
+          <div class="row h-100 justify-content-center align-items-center text-muted py-4">
+            <form onsubmit="return generate()" class="box">
+              <h1 align="center">Welcome</h1>
+              <br>
+              <div class="container">
+                <div class="form-group"> <label for="email">User Name</label> <input type="email" class="form-control" id="email" placeholder="Enter email"> </div>
+                <div class="form-group"> <label for="pwd">Password</label> <input type="password" class="form-control" id="pwd" placeholder="Enter password"> </div>
+                <div class="checkbox"> <label><input type="checkbox"> Remember me</label> </div> <a href="generator.html" class="btn btn-block btn btn-primary btn-dark">Log In</a>
+
+
+              </div>
+            </form>
+
+          </div>
+          <br>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+</header>
+
+  <!-- Log In -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Moodies Section -->
+<div class="container pt-4">
+
+  <h1 class="display text-center text-muted my-4">Top Rated Moodies</h1>
+  <div class="row">
+
+    <div class="col-lg-3 col-md-6 m-auto">
+      <div class="card">
+        <img src="ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzQ1ZTYyYjMzLTlmYmUtNDk4YS1hZmQzLTVlMjNiOTU5YjE5OS5qcGc=.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p align="center" class="card-text" >David Whitmer, Oliver Cowdery and Martin Harris face ridicule and persecution when they claim to have seen angels.</p>
+          <p class="card-text" align="center">8.1/10 MDFX</p>
+          <div class="text-center">
+          <a href="#" class="btn btn-primary btn-dark">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-3 col-md-6">
+      <div class="card">
+        <img src="ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2RmYmNmNDc2LTJiZTktNDU4Ni05ODkyLTNmOGVmMzRkNzgwNi5qcGc=.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p align=center class="card-text">Professional skier and BASE jumper Matthias Giraud pursues his passion for adventure while also starting a family.</p>
+          <p class="card-text" align="center">7.1/10 MDFX</p>
+          <div class="text-center">
+          <a href="#" class="btn btn-primary btn-dark">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="card">
+        <img src="ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzUyMjU1NTg3LWZhYWYtNGQ5ZS05N2YyLTc3YTNjYWI5NjNiYy5qcGc=.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p align=center class="card-text">83 is an upcoming Indian Hindi-language biographical sports film directed by Kabir Khan and jointly produced by Khan.</p>
+          <p class="card-text" align="center">7.2/10 MDFX</p>
+          <div class="text-center">
+          <a href="#" class="btn btn-primary btn-dark">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg-3 col-md-6">
+      <div class="card">
+        <img src="best.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p align=center class="card-text">A woman works as a historian who specializes in the urban development of modern-day Berlin With the love.  </p>
+          <p class="card-text" align="center">6.9/10 MDFX</p>
+          <div class="text-center">
+          <a href="#" class="btn btn-primary btn-dark">Watch Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+<div class="container">
+  <br>
+</div>
+
+
+
+
+
+
+    <!-- Newsletter Section -->
+
+    <br>
+    <li class="list-group-item bg-transparent ">
+
+      <div class="row py-4 text-muted">
+        <div class="col-md">
+          <p><strong>Weekly Reviews</strong></p>
+          <p>Sign up now for weekly Top Rated Movies tailored to your specifications directly added to your Netflix List</p>
+        </div>
+        <div class="col-md col-lg-5 ml-auto">
+          <p><strong>Weekly Reviews Directly to your Netflix List</strong></p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2">
+            <button class="btn btn-secondary btn-dark" type="button" id="button-addon2">Confirm</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+  </div>
+  <div class="footer-container">
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a href="index.html">MoodFix Pty</a>
+    </div>
+  </div>
+
+  </body>
+</html>
+
+
+
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>

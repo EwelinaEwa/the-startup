@@ -1,0 +1,252 @@
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
+}
+
+hr {
+    border-color: #212529;
+    border-width: 2px;
+    width: auto;
+}
+
+.logo {
+    height: 50px;
+    padding: 5px;
+}
+
+/*Carousel*/
+#container-carousel {
+    padding-bottom: 5%;
+}
+
+.benefits {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.carousel-item {
+    height: 45rem;
+    max-width: 80rem;
+    background-color: #fff;
+    margin: auto;
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+.carousel-header {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: -480px;
+}
+
+.carousel-p {
+    font-size: 20px;
+    line-height: 1.5;
+    position: relative;
+    top: -480px;
+}
+
+.benefit-image {
+    opacity: 50%;
+    margin: auto;
+}
+
+.carousel-indicators button{
+    padding-right: 1%;
+    margin: 1%;
+    border: none;
+    opacity: 30%;
+}
+
+.car-button {
+    background-color: transparent;
+    border: none;
+    margin: 1%;
+}
+
+/*Signup*/
+
+#container-signup {
+    padding: 5% 10%;
+}
+
+.signup-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.signup-form {
+    padding: 2% 0;
+}
+
+.form-field-signup {
+    text-align: right;
+    padding-right: 100px;
+}
+
+.signup-p {
+    padding-top: 20px;
+}
+
+/*Newsletter*/
+
+#container-newsletter {
+    padding: 5% 10%;
+}
+
+.newsletter-p {
+    padding-top: 20px;
+}
+
+.newsletter-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.newsletter-form {
+    padding: 2% 0;
+    display: flex;
+}
+
+.form-field-newsletter {
+    text-align: right;
+}
+
+.btn-newsletter {
+    margin-left: 20px;
+}
+
+/*About us*/
+
+#container-about {
+    padding: 5% 10%;
+}
+
+.card-style {
+    background-color: #fff;
+    margin: 2%;
+    border-radius: 30px;
+
+}
+.about-p {
+    font-size: 16px;
+    color: #222831;
+}
+
+.about-p-title {
+    font-size: 14px;
+    color: #222831;
+    font-style: italic;
+}
+
+.about-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222831;
+}
+
+.about-img {
+    opacity: 90%;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/*Contact*/
+
+#container-contact {
+    padding: 5% 10%;
+}
+
+address {
+    white-space: pre;
+    font-size: 20px;
+    padding-top: 10%;
+    margin-left: -40%;
+}
+
+.contact {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 1400px) {
+    #container-contact {
+        padding: 5% 0%;
+    }
+    #gmap_canvas {
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .benefits {
+        padding: 5% 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-cards {
+        margin-top: 20px;
+    }
+    address {
+        margin-left: -15%;
+        padding-top: 0%;
+    }
+    #gmap_canvas {
+        width: 600px;
+    }
+}
+
+@media (max-width: 770px) {
+    .carousel-item {
+        height: 27rem;
+    }
+    .carousel-header {
+        top: -200px;
+        font-size: 30px;
+    }
+    .carousel-p {
+        top: -200px;
+    }
+    #gmap_canvas {
+        width: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item {
+        height: 17rem;
+    }
+    .carousel-header {
+        top: -40px;
+        font-size: 25px;
+    }
+    .carousel-p {
+        top: -40px;
+        font-size: 16px ;
+    }
+    .benefit-image btn {
+        font-size:11px;
+        padding:4px 6px;
+    }
+
+    .signup-header {
+        font-size: 25px;
+    }
+
+    .newsletter-header {
+        font-size: 25px;
+    }
+    address {
+        margin-left: -23%;
+    }
+    #gmap_canvas {
+        width: 320px;
+    }
+
+}

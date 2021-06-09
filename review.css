@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+ul { 
+    display: block;
+}
+
+ul p {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif ;
+    text-align: center;
+    font-size: 2rem;
+    min-height: 100vh;
+}
+
+.row {
+    background-color: white; 
+}
+
+.whoarewe {
+    background-color: transparent;
+    color: #050505;
+    opacity: 70%;
+    text-align: center;
+}
+
+.test-wrapper {
+    display: block;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    color: black;
+}
+
+.list-group-flush { /*spotlight stylng*/
+    text-align: center;
+    position: center;
+}
+
+.card-text-profile {
+    color: pink;
+}
+
+.list-container {
+    text-align: center;
+    position: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item   {
+    font-size: 1.04rem;
+}
+
+/* CARD STYLING */
+.card-body {
+    color: black;
+    position: center;
+}
+.card-body p {
+    font-size: 0.95rem;
+    opacity: 100%;
+}
+
+.card {
+    text-align: center;
+    background-color: transparent;
+}
+
+.rounded-circle {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+    padding: 15px;
+}
+
+hr {
+    display: hidden;
+}
+/* SEPARATE STYLING */
+
+.carouselExampleDark {
+    background-color:white ;
+}
+
+.carousel {
+    padding-top: 15px;
+}
+
+.carousel-item {
+    height: 26rem;
+    max-width: 80rem;
+    background-color: #222831;
+    color: #eeeeee;
+    margin: auto;
+}
+
+.carousel-item img {
+    height: 100%;
+}
+
+.carousel-indicators-button {
+    padding-right: 3%;
+    margin: 1%;
+    border: none;
+    opacity: 30%;
+}
+
+.car-button {
+    background-color: transparent;
+    border: none;
+}
+
+.footer-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    z-index: 100;
+} 
+
+/*RESPONSIVENESS */
+
+@media (max-width: 425px) {
+    .text-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 770px) {
+    .text-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .text-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .text-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
